@@ -1,0 +1,22 @@
+{
+  "name": "amagi",
+  "version": "1.0.0",
+  "description": "Amagi Log App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "paras.mathur",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
+    "nginx-log-parser": "0.0.4",
+    "s": "^0.1.1",
+    "tail": "^2.0.2"
+  }
+}
