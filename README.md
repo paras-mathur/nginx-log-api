@@ -1,7 +1,10 @@
 # NGINX Log Analytics API
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+Notes:
 > Developed and Tested on Windows machine
+> Nginx takes some time to flush logs to log file, hit refresh or open access.log for immediate result
+
 # Installation
  - git clone [repo_name_here]
  - npm install
